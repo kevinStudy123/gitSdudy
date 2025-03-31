@@ -37,3 +37,10 @@ git merge 要合并的分支
 git checkout -b 分支名称 （这相当于执行了，git branch 分支名称，git checkout 分支名称）
 删除分支
 git branch -d 分支名称
+
+
+拉取代码：
+git pull origin dev
+等价于
+git fetch origin dev
+git merge origin/dev
