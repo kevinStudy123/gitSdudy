@@ -22,3 +22,18 @@ git 撤销，放弃本地修改
 三、已经用 git commit  提交了代码
 可以使用 git reset --hard HEAD^ 来回退到上一次commit的状态。此命令可以用来回退到任意版本：git reset --hard  commitid
 git log 可以查看请交历史记录 
+
+查看分支
+git branch
+创建分支
+git branch 分支名称
+切换分支
+git checkout 分支名称
+合并分支
+git merge 要合并的分支
+（注意，切换分支在合并）
+
+如果需要创建并切换到新的分支，
+git checkout -b 分支名称 （这相当于执行了，git branch 分支名称，git checkout 分支名称）
+删除分支
+git branch -d 分支名称
