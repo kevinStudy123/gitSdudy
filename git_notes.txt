@@ -44,3 +44,18 @@ git pull origin dev
 git fetch origin dev
 git merge origin/dev
 
+项目配置文件：项目 /.git/config
+git config --local user.name 'xx'
+git config --local user.email 'xx'
+
+全局配置文件： ~/.gitconfig
+git config --global user.name 'xx'
+git config --global user.email 'xx'
+
+系统配置文件： /etc/.gitconfig
+git config --system user.name 'xx'
+git config --system user.email 'xx'
+需要有root权限
+
+git remote add origin 地址 （默认添加在本地配置文件中，--local）
+
